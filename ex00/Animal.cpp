@@ -1,5 +1,4 @@
 #include "Animal.hpp"
-#include <iostream>
 
 Animal::Animal()
 {
@@ -35,5 +34,5 @@ std::string Animal::getType(void) const
 
 void Animal::makeSound() const
 {
-    std::cout << "Growll" << std::endl;
+    std::cout << "Undentified Animal is close." << std::endl;
 }
