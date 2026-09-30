@@ -4,7 +4,6 @@
 Brain::Brain()
 {
     std::cout << "Brain default constructor called." << std::endl;
-    
 }
 
 Brain::Brain(const Brain& other)
@@ -47,7 +46,7 @@ std::string Brain::getIdea(int i) const
     if (i < 0 || i > 99)
     {
         std::cout << "Invalid Idea." << std::endl;
-        return (NULL);
+        return ("");
     }
     else
         return (this->ideas[i]);
